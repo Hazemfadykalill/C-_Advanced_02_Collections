@@ -1,4 +1,8 @@
-﻿using System.Reflection.Metadata;
+﻿using Microsoft.VisualBasic;
+using System.Collections.Generic;
+using System.Collections;
+using System.Reflection.Metadata;
+using System.Runtime.Intrinsics.X86;
 
 namespace Assignment_Advanced_Collections
 {
@@ -19,8 +23,134 @@ namespace Assignment_Advanced_Collections
              * in-place(in the same arrayList) without using the built-in Reverse.
              * Implement a function that takes the ArrayList as input and modifies it to have the reversed order of elements.
              */
+
+            #region Report
+            //Solution
+            /*        CollectionType     Structure  Time Complexity(Access)    Time Complexity(Insertion/ Deletion)	Use Case
+        ArrayList     Non-generic Array  O(1)	    O(n)                        Legacy code, mixed types
+        List<T>       Generic Array      O(1)	    O(n)                        Homogeneous data, type safety
+        Queue<T>      FIFO               O(n)       O(1)                        Order of processing is important
+        Stack< T>     LIFO               O(n)       O(1)                        Backtracking and undo mechanisms
+        LinkedList<T> Doubly-LinkedList  O(n)       O(1)                        Frequent insertions/ deletions
+            */
             #endregion
 
+            #region ArrayList Implementation
+            //ArrayList Implementation
+
+            //ArrayList Names = new ArrayList();
+
+
+            //Names.Add("Hazem");
+            //Names.Add("Fady");
+            //Names.Add("1236");
+
+
+
+            //// Removing an element
+            //Names.Remove("1236");
+
+            //// Iterating through elements
+            //foreach (var name in Names)
+            //{
+            //    Console.Write(" "+ " "+ name);
+            //}
+
+            //Console.WriteLine("\n\n ============ ============ ============");  
+            #endregion
+
+            #region List Implementation
+            //List Generics Implementation
+
+            //List<string> Names = new List<string>(4);
+
+
+            //Names.Add("Hazem");
+            //Names.Add("Fady");
+            //Names.Add("Mohamed");
+            //Names.Add("Khalil");
+
+
+
+
+
+            //// Iterating through elements
+            //foreach (var name in Names)
+            //{
+            //    Console.Write(" " + " " + name);
+            //}
+
+            //Console.WriteLine("\n\n ============ ============ ============");
+
+            #endregion
+            #endregion
+
+            #region Queue Implementation
+
+            //Queue<int> queue = new Queue<int>();
+
+            //// Adding elements
+            //queue.Enqueue(1);
+            //queue.Enqueue(2);
+            //queue.Enqueue(3);
+
+            //// Removing elements
+            //Console.WriteLine("Removed: " + queue.Dequeue());
+
+            //// Peeking at the head
+            //Console.WriteLine("Head: " + queue.Peek());
+
+            //// Iterating through elements
+            //foreach (int number in queue)
+            //{
+            //    Console.WriteLine(number);
+            //}
+            #endregion
+
+            #region Stack Implementation
+
+            //Stack<string> stack = new Stack<string>();
+
+            // Adding elements
+            //stack.Push("A");
+            //stack.Push("B");
+            //stack.Push("C");
+
+            //// Removing elements
+            //Console.WriteLine("Popped: " + stack.Pop());
+
+            //// Peeking at the top Without Removing
+            //Console.WriteLine("Top: " + stack.Peek());
+
+            //// Iterating through elements
+            //while (stack.Count > 0)
+            //{
+            //    Console.WriteLine(stack.Pop());
+            //}
+            #endregion
+
+
+            #region LinkedList Implementation
+            //LinkedList<string> playlist = new LinkedList<string>();
+
+            // Adding elements
+            //playlist.AddLast("Song 1");
+            //playlist.AddLast("Song 2");
+            //playlist.AddLast("Song 3");
+
+            //// Adding elements at specific positions
+            //playlist.AddFirst("Intro");
+            //playlist.AddLast("Outro");
+
+            //// Removing elements
+            //playlist.Remove("Song 2");
+
+            //// Iterating through elements
+            //foreach (string song in playlist)
+            //{
+            //    Console.WriteLine(song);
+            //}
+            #endregion
             #region Q02
             /*2.You are given a list of integers. Your task is to find and return a new list 
              * containing only the even numbers from the given list.
@@ -42,7 +172,7 @@ namespace Assignment_Advanced_Collections
 
             #endregion
 
-             
+
             #endregion
         }
     }
