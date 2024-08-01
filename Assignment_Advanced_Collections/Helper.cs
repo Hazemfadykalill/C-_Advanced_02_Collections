@@ -22,5 +22,22 @@ namespace C__Advanced_02_Collections
 
             return arrayList!;
         }
+
+        public static List<int> EvenNumberINList(List<int> list)
+        {
+            List<int> result = new List<int>();
+        
+
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i] % 2 == 0)
+                {
+                    result.Add(list[i]);
+                }
+            }
+           
+        
+return result;
+        }
     }
 }

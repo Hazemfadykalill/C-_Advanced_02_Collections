@@ -169,6 +169,14 @@ namespace Assignment_Advanced_Collections
              * containing only the even numbers from the given list.
              */
 
+            List<int> list = new List<int>() { 1,2,3,4,5,6,7,8,9,10,11,12,14};
+            List<int> list02= Helper.EvenNumberINList(list);
+            for (int i = 0; i < list02.Count; i++)
+            {
+                Console.Write(" "+ " "+list02[i]); 
+            
+            }
+
             #endregion
 
             #region Q03
