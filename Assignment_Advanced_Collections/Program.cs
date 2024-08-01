@@ -14,15 +14,6 @@ namespace Assignment_Advanced_Collections
             /*⮚	Write a Report about all Collections Given in the Session and Compare
              * [Structure, Time Complexity, and Business Case With Implemented Examples]
              */
-            #endregion
-
-            #region Part02
-            #region Q01
-            /*1.You are given an ArrayList containing a sequence of elements.
-             * try to reverse the order of elements in the ArrayList
-             * in-place(in the same arrayList) without using the built-in Reverse.
-             * Implement a function that takes the ArrayList as input and modifies it to have the reversed order of elements.
-             */
 
             #region Report
             //Solution
@@ -151,6 +142,19 @@ namespace Assignment_Advanced_Collections
             //    Console.WriteLine(song);
             //}
             #endregion
+
+            #region Part02
+
+
+            #region Q01
+            /*1.You are given an ArrayList containing a sequence of elements.
+             * try to reverse the order of elements in the ArrayList
+             * in-place(in the same arrayList) without using the built-in Reverse.
+             * Implement a function that takes the ArrayList as input and modifies it to have the reversed order of elements.
+             */
+            #endregion
+
+
             #region Q02
             /*2.You are given a list of integers. Your task is to find and return a new list 
              * containing only the even numbers from the given list.
