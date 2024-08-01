@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Collections;
 using System.Reflection.Metadata;
 using System.Runtime.Intrinsics.X86;
+using System.Runtime.CompilerServices;
+using C__Advanced_02_Collections;
 
 namespace Assignment_Advanced_Collections
 {
@@ -154,6 +156,11 @@ namespace Assignment_Advanced_Collections
              * in-place(in the same arrayList) without using the built-in Reverse.
              * Implement a function that takes the ArrayList as input and modifies it to have the reversed order of elements.
              */
+
+            //ArrayList arrayList = new ArrayList(5) { 1,2,3,4,5};
+            //Helper.ReverseArrayList(arrayList);
+
+
             #endregion
 
 
