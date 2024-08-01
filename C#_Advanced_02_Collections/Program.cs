@@ -148,7 +148,7 @@ namespace C__Advanced_02_Collections
             ////To Use Parameterless Constructor
             //LinkedList<int> linkedList = new LinkedList<int>();
             //Console.WriteLine($"Count This LinkedList Is {linkedList.Count}");
-            ////To Add Element In First LinkedList
+            ////To Add Element In First LinkedListt
             //linkedList.AddFirst(1);
             //Console.WriteLine($"Count This LinkedList Is {linkedList.Count}");
 
