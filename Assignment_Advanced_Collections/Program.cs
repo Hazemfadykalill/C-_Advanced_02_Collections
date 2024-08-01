@@ -169,13 +169,13 @@ namespace Assignment_Advanced_Collections
              * containing only the even numbers from the given list.
              */
 
-            List<int> list = new List<int>() { 1,2,3,4,5,6,7,8,9,10,11,12,14};
-            List<int> list02= Helper.EvenNumberINList(list);
-            for (int i = 0; i < list02.Count; i++)
-            {
-                Console.Write(" "+ " "+list02[i]); 
+            //List<int> list = new List<int>() { 1,2,3,4,5,6,7,8,9,10,11,12,14};
+            //List<int> list02= Helper.EvenNumberINList(list);
+            //for (int i = 0; i < list02.Count; i++)
+            //{
+            //    Console.Write(" "+ " "+list02[i]); 
             
-            }
+            //}
 
             #endregion
 
@@ -190,6 +190,11 @@ namespace Assignment_Advanced_Collections
             //3.Implement an Add method that adds an element to the list, but throws an exception if the list is already full.
             //4.Implement a Get method that retrieves an element at a specific index in the list but throws an exception for invalid indices.
 
+
+            //FixedSizeList<int> list = new FixedSizeList<int>(4);
+            //list.Add(1);
+            //Console.WriteLine(list.Get(0));
+          
 
             #endregion
 
